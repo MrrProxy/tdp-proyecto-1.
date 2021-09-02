@@ -9,6 +9,8 @@ public class Student {
 	private String githubURL;
 	private String pathPhoto;
 	
+	//Diego Biernat
+	
 	public Student(int id, String lastName, String firstName, String mail, String githubURL, String pathPhoto) {
 		this.id =id;
 		this.lastName = lastName;

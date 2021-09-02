@@ -37,6 +37,7 @@ public class SimplePresentationScreen extends JFrame {
 	
 	/**
 	 * Create the frame.
+	 * Diego Biernat
 	 */
 	public SimplePresentationScreen(Student studentData) {
 		this.studentData = studentData;
