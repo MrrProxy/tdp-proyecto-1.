@@ -79,35 +79,35 @@ public class SimplePresentationScreen extends JFrame {
 		
 		txtFLU = new JTextField();
 		txtFLU.setText(""+studentData.getId());
-		txtFLU.setEditable(false);
+		//txtFLU.setEditable(false);
 		txtFLU.setColumns(10);
 		txtFLU.setBounds(99, 40, 224, 20);
 		contentPane.add(txtFLU);
 		
 		txtFApellido = new JTextField();
 		txtFApellido.setText(studentData.getLastName());
-		txtFApellido.setEditable(false);
+		//txtFApellido.setEditable(false);
 		txtFApellido.setBounds(99, 81, 224, 20);
 		contentPane.add(txtFApellido);
 		txtFApellido.setColumns(10);
 		
 		txtFNombre = new JTextField();
 		txtFNombre.setText(studentData.getFirstName());
-		txtFNombre.setEditable(false);
+		//txtFNombre.setEditable(false);
 		txtFNombre.setBounds(99, 120, 224, 20);
 		contentPane.add(txtFNombre);
 		txtFNombre.setColumns(10);
 		
 		txtFEmail = new JTextField();
 		txtFEmail.setText(studentData.getMail());
-		txtFEmail.setEditable(false);
+		//txtFEmail.setEditable(false);
 		txtFEmail.setBounds(99, 164, 224, 20);
 		contentPane.add(txtFEmail);
 		txtFEmail.setColumns(10);
 		
 		txtFGithub = new JTextField();
 		txtFGithub.setText(studentData.getGithubURL());
-		txtFGithub.setEditable(false);
+		//txtFGithub.setEditable(false);
 		txtFGithub.setBounds(99, 213, 224, 20);
 		contentPane.add(txtFGithub);
 		txtFGithub.setColumns(10);
